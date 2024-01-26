@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,50#ffd40d0;1,100;1,200;1,300;1,400&family=Fredoka:wght@300;400;500;600;700&family=Poppins:wght@500&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*  contact us section start */
+.hero2{
+    height: 400px;
+    width:100%;
+    background: url('../images/WhatsApp\ Image\ 2023-11-24\ at\ 5.33.48\ PM.jpeg');
+    background-color:#f5f8fe ;
+    background-size: cover;
+    background-position: 20%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.about-content-1{
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+}
+.home-about{
+    font-size: 1.7rem;
+    font-family: "Fredoka One";
+    margin: 1rem;
+}
+.about-home{
+    height: 50px;
+    width: 300px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    background-color: #f3274c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-family: "Fredoka One";
+}
+.about-home a{
+    text-decoration: none;
+    color: white;
+}
+.home-icon{
+    height: 20px;
+}
+/*  contact us section end  */
+/* contact section content code start*/
+.contact-content{
+    min-height: 400px;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+}
+.contact-getoption{
+    padding: 1rem;
+    width: 50%;
+}
+.contact-getoption h2{
+    padding: 1rem;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.booking{
+    display: flex;
+    gap: 15px;
+    padding: 2.5rem;
+}
+.for-booking{
+    height: 250px;
+    width: 300px;
+    border: 5px solid #ffd40d;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.booking-circle{
+    height: 130px;
+    width: 130px;
+    margin: 1rem;
+    border-radius: 50%;
+    background: #f3274c;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking-circle img{
+    height: 40px;
+    width: 40px;
+    color: #fff;
+}
+.for-booking h3{
+    color: #f3274c;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+}
+.for-booking p{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.for-private{
+    height: 250px;
+    width: 300px;
+    border: 5px solid #ffd40d;
+    border-radius: 20px;
+}
+.contect-map{
+    height: 300px;
+    width: 100%;
+    border: 2px solid #ffd40d;
+    border-radius: 30px;
+}
+.contact-form{
+    padding: 2rem;
+}
+.contact-form h2{
+    font-size: 3rem;
+    line-height: 60px;
+}
+.contact-form p{
+    font-size: 1.3rem;
+    padding: 1rem;
+    line-height: 25px;
+    word-spacing: 2px;
+    height: 150px;
+}
+.input2{
+    width: 49.5%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    border: 3px solid #ffd40d;
+}
+.input3{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    border: 3px solid #ffd40d;
+}
+textarea{
+    height: 300px;
+    width: 100%;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: 3px solid #ffd40d;
+}
+.send-mess{
+    height: 80px;
+    width: 160px;
+    border:3px solid #f3274c;
+    border-radius:10px;
+    margin: 20px 0px;
+    padding: 10px;
+    transition: all 1s;
+}
+.send-mess:hover{
+    width: 100px;
+}
+.send-mess button{
+    font-size: 1rem;
+    width: 180px;
+    background-color:#f3274c;
+    color: #fff;
+    padding: 1.2rem .5rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+}
+.location-content{
+    padding:1.5rem 0rem;
+    display: inline-block;
+}
+.location-content p{
+    padding: 0rem 2rem;
+    font-size: 1.1rem;
+    position: relative;
+    top: -25px;
+}
+
+/* contact section content code end*/
+/*  contact video section start*/
+.video-div{
+    height: 700px;
+    width: 80%;
+    border: 2px solid #000;
+    margin: 0px auto;
+    border-radius: 2rem;
+    
+}
+.video-div video{
+    object-fit:cover ;
+    border-radius: 2rem;
+}
+.dates{
+    height: 250px;
+    width: 70%;
+    background-color: #f3274c;
+    margin: 0px auto;
+    border-radius: 2rem;
+    position: relative;
+    top: -100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.days-dates{
+    height: 100%;
+    width: 30%;
+    text-align: center;
+    padding-top:3rem ;
+}
+.days-dates h3{
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+}
+.days-dates h4{
+    font-size: 25px;
+    color: #ffd40d;
+    line-height: 50px;
+}
+.days-dates h5{
+    font-size: 20px;
+    color: #fff;
+    line-height: 50px;
+}
+/*  contact video section end*/

@@ -1,0 +1,293 @@
+ 
+@media (max-width:1130px){
+    .navbar{
+        display: none;
+    }
+    .res-btn{
+        display: none;
+    }
+    .top-header{
+        display: none;
+    }
+}
+@media (max-width:1130px){
+    .re-table{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .three-dot{
+        display: block;
+    }
+}
+@media (max-width:1100px) {
+    .about-heading h2{
+        font-size:3.8rem;
+    }
+}
+@media (max-width:1050px) {
+    .about-heading h2{
+        font-size:3.5rem;
+    }
+}
+@media (max-width:950px) {
+    .about-us{
+        flex-direction: column;
+        width: 100%;
+    }
+    .about-heading{
+        width: 100%;
+    }
+    .about-content{
+        width: 100%;
+    }
+}
+@media (max-width:1100px){
+    .abc{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-persion{
+        width: 100%;
+    }
+    .right-persion{
+        width: 100%;
+    }
+}
+@media (max-width:930px) {
+    .coffe-menu{
+        flex-direction: column;
+    }
+    .coffe-image{
+        width: 80%;
+        justify-content: center;
+    }
+    .coffe-content{
+        width: 80%;
+        justify-content: center;
+    }
+}
+@media (max-width:1000px) {
+    .featured-card{
+        flex-wrap: wrap;
+    }
+    .card{
+        width:48%;
+        margin: 10px  0px;
+    }
+}
+@media (max-width:700px) {
+    .featured-card{
+        flex-wrap: wrap;
+    }
+    .card{
+        width:100%;
+        justify-content: center;
+    }
+}
+@media (max-width:1275px) {
+    .form input{
+        margin: .3rem;
+        padding: 1.5rem;
+    }
+    .reserve-content h2{
+        font-size: 2rem;
+        padding: 0px;
+    }
+}
+@media (max-width:1075px) {
+    .reserve-content h2{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:876px) {
+    .reserve-image{
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 30px 0px;
+    }
+    .reserve-content{
+        width: 50%;
+        text-align: center;
+        padding: 0px;
+    }
+    .btn3{
+        top: 70%;
+        left: 68%;
+    }
+    .resrve-form .input{
+        padding: 1.3rem;
+        padding:20px;
+    }    
+}
+@media (max-width:615px) {
+    .btn3{
+        top: 50%;
+        left: 60%;
+    }
+   
+}
+@media (max-width:1100px) {
+    .about-image{
+        flex-wrap: wrap;
+    }
+    .banner1{
+        width: 47%;
+    }
+    .banner2{
+        width: 47%;
+        position: static;
+        margin-top: 20px;
+    }
+    .banner3{
+        width: 50%;
+    }
+}
+@media (max-width:768px) {
+    .about-image{
+        flex-wrap: wrap;
+    }
+
+    .banner1{
+        width: 100%;
+        align-self: center;
+    }
+    .banner2{
+        width: 100%;
+        position: static;
+        margin-top: 20px;
+    }
+    .banner3{
+        width: 100%;
+    }
+}
+/*  our customer section start  */
+@media (max-width:1000px) {
+    .resp{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .customer-content{
+        width: 100%;
+    }
+    .customer-image{
+        width: 100%;
+    }
+}
+/*  our chef section start  */
+@media (max-width:1100px) {
+    .chef1{
+        width: 49%;
+    }
+    .chef2{
+        width: 49%;
+    }
+    .chef3{
+        width: 50%;
+        margin-top: 4rem;
+    }
+}
+@media (max-width:870px) {
+    .our-experts{
+        
+        
+    }
+    .chef1{
+        width: 100%;
+    }
+    .chef2{
+        width: 100%;
+    }
+    .chef3{
+        width: 100%;
+        margin-top: 0rem;
+    }
+}
+/*food ordering section start*/
+@media (max-width:1250px) {
+    .content h2{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+}
+@media (max-width:960px) {
+    .content{
+        width: 100%;
+    }
+    .food-bacground{
+        width: 100%;
+        margin: 10px;
+    }
+    .food-app{
+        width: 100%;
+        
+    }
+}
+/*  recent news section start   */
+@media (max-width:1100px) {
+    .news1{
+        width: 48%;
+
+    }
+    .news2{
+        width: 48%;
+    }
+    .news3{
+        width: 100%;
+    }
+}
+@media (max-width:665px) {
+    .news1{
+        width: 100%;
+    }
+    .news2{
+        width: 100%;
+    }
+    .news3{
+        width: 100%;
+    }
+}
+/* footer section start*/
+@media (max-width:1000px) {
+    .footer{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer-logo{
+        width: 45%;
+    }
+    .footer-about{
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .footer-menu{
+        width: 45%;
+    }
+    .news-letter{
+        width: 45%;
+    }
+}
+@media (max-width:730px) {
+    .footer{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .footer-logo{
+        width: 100%;
+    }
+    .footer-about{
+        width: 100%;
+    }
+    .footer-menu{
+        width: 100%;
+    }
+    .news-letter{
+        width: 100%;
+    }
+}

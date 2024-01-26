@@ -1,0 +1,133 @@
+/*  services event section start    */
+.service-events{
+    padding: 2rem;
+    display: flex;
+}
+.parties-image{
+    min-height: 400px;
+    width: 29%;
+
+}
+.parties-image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+}
+.second-parties-img{
+    min-height: 300px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.second-parties-img img{
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+
+}
+.content-parties{
+    width: 48%;
+    padding: 2rem 1rem;
+}
+.content-parties h1{
+    font-size: 4rem;
+}
+.content-parties p{
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+    word-spacing:3px ;
+}
+.paras-content{
+    padding: 1rem;
+    display: block;
+}
+.paras-content img{
+    margin: .3rem;
+}
+.paras-content span{
+    font-size: 1.3rem;
+    position: relative;
+    top: -10px;
+}
+/*  services event section end  */
+/*  seat and table section start   */
+.number-of-seat{
+    height: 300px;
+    width: 100%;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.seated{
+    height: 100%;
+    width: 30%;
+    text-align: center;
+}
+.seated h3{
+    font-size: 1.5rem;
+}
+.seated h2{
+    font-size: 8rem;
+    color: red;
+    font-family: "Fredoka One";
+    font-weight: bolder;
+}
+/*  seat and table section end   */
+/*  image gallery secton start  */
+.gallery-image{
+    min-height: 500px;
+    width: 100%;
+}
+.photo-content{
+    padding: 2rem;
+}
+.photo-content h2::before{
+    content: " ";
+    height: 10px;
+    width: 25%;
+    background:#ff0;
+    position: absolute;
+    top: 100px;
+    left: 33rem;
+    border-radius: 5px;
+
+}
+.photo-content h2{
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 6.5rem;
+    position: relative;
+}
+.photos{
+    min-height: 300px;
+    width:100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 1rem 3rem;
+}
+.photos img{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+/*  image gallery section end   */
+/* services form section start*/
+.services-form{
+    min-height: 400px;
+    width: 100%;
+    padding: 2rem 0rem;
+    position: relative;
+}
+.services-form img{
+    width: 100%;
+    
+}
+.form-overlap{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+}
+/* services form section end*/
