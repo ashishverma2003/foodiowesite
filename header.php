@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/services.css">
-    <link rel="stylesheet" href="responsive/index.css">
+    <link rel="stylesheet" href="responsive/index1.css">
 </head>
 <body>
     <div class="top-header">
@@ -37,11 +37,11 @@
             </div>
             <div class="navbar">
                 <ul class="flex">
-                    <li><a href="foodio.html" class="link">Home</a></li>
-                    <li><a href="about.html" class="link">About us</a></li>
+                    <li><a href="foodio.php" class="link">Home</a></li>
+                    <li><a href="about.php" class="link">About us</a></li>
                     <li><a href="#" class="link">News</a></li>
-                    <li><a href="contact_us.html" class="link">Contact us</a></li>
-                    <li><a href="services.html" class="link">Services</a></li>
+                    <li><a href="contact_us.php" class="link">Contact us</a></li>
+                    <li><a href="services.php" class="link">Services</a></li>
                 </ul>
             </div>
             <div class="re-table ">

@@ -193,8 +193,7 @@
 }
 @media (max-width:870px) {
     .our-experts{
-        
-        
+        height: auto;
     }
     .chef1{
         width: 100%;
